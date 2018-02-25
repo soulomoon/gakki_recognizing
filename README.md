@@ -15,7 +15,7 @@
 非常简单并且已经训练好模型的 [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition)
 
 ### 为什么要gakki
-因为我就要爬你们老婆
+老婆好
 
 ### 识别后的处理逻辑
 识别后将图片的symlinks到对应的文件夹
