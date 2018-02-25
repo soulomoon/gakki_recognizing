@@ -32,16 +32,14 @@ class FaceRec:
         :param path:
         :return: is gakki: True, no face match: False, no face detected: 2
         """
-        fail_flag = 2
         for unknown_face in face_recognition.face_encodings(face_recognition.load_image_file(path)):
             votes = face_recognition.compare_faces(self.known_faces, unknown_face, tolerance=0.45)  # type: List
             result = votes.count(True) > 0
             self.logger.info("{}:{}".format(votes, result))
             if result:
                 return result
-            else:
-                fail_flag = False
-        return fail_flag
+        else:
+            return 2
 
 
 def select_gakki():

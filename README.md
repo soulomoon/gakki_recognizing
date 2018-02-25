@@ -1,4 +1,20 @@
 # 获取并且识别gakki老婆的图片(Just for fun)
+
+## Requirement
+* python 3.6
+* pipenv
+
+## 使用方式
+##### 下载repo
+* `pip install https://github.com/soulomoon/gakki_recognizing.git`
+* `cd gakki_recognizing`
+##### 安装依赖
+* `pip install pipenv`
+* `pipenv install`
+##### 爬取图片
+* `pipenv run python scrap.py`
+* `pipenv run python recognize.py`
+
 ## 爬取gakki图片
 
 ### selenium
