@@ -28,7 +28,7 @@
 ## 人脸识别gakki
 
 ### 识别引擎
-非常简单并且已经训练好模型的 [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition)
+非常简单并且已经训练好模型的线程的库 [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition)
 
 ### 为什么要gakki
 老婆好
