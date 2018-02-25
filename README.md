@@ -13,6 +13,7 @@
 * `pipenv install`
 ##### 爬取图片
 * `pipenv run python scrap.py`
+##### 识别图片并且归类
 * `pipenv run python recognize.py`
 
 ## 爬取gakki图片
@@ -34,4 +35,5 @@
 老婆好
 
 ### 识别后的处理逻辑
+结果显示在data文件夹里面  
 识别后将图片的symlinks到对应的文件夹
