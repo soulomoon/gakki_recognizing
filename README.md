@@ -13,7 +13,8 @@
 * `pipenv install`
 ##### 爬取图片
 * `pipenv run python scrap.py`
-##### 手动识别gakki几张图片并放到data/know文件夹里
+##### 人工识别gakki作为参照
+* 手动识别gakki几张图片并放到data/know文件夹里
 ##### 识别图片并且归类
 * `pipenv run python recognize.py`
 
