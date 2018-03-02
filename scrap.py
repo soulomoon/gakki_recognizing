@@ -1,3 +1,4 @@
+import asyncio
 import logging
 import time
 
@@ -100,7 +101,7 @@ def download_gakki():
             title = title.replace(" ", "")
             url = li.get_attribute("data-objurl")
             if "http" in url:
-                download_img(url, title, idx)
+                asyncio.get_event_loop().run_in_executor(None, download_img, url, title, idx)
             else:
                 logger.warning("not img--------------------------------------------------------")
         browser.quit()
