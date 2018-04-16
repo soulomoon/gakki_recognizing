@@ -6,7 +6,7 @@
 
 ## 使用方式
 ##### 下载repo
-* `pip install https://github.com/soulomoon/gakki_recognizing.git`
+* `git clone https://github.com/soulomoon/gakki_recognizing.git`
 * `cd gakki_recognizing`
 ##### 安装依赖
 * `pip install pipenv`
