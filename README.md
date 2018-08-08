@@ -3,6 +3,7 @@
 ## Requirement
 * python 3.6
 * pipenv
+* selenium
 
 ## 使用方式
 ##### 下载repo
@@ -11,6 +12,8 @@
 ##### 安装依赖
 * `pip install pipenv`
 * `pipenv install`
+##### 安装selenium
+[教程](http://selenium-python.readthedocs.io/installation.html)
 ##### 爬取图片
 * `pipenv run python scrap.py`
 ##### 人工识别gakki作为参照
